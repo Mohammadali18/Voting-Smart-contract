@@ -5,7 +5,7 @@ Election Commission Management: The Election Commission sets the voting period, 
 Real-time Voting Status: Check if voting is not started, in progress, or ended.
 Contract Details
 
-##Features
+## Features
 
 * Voter and Candidate Registration: Only eligible voters (18+ years) and unique candidates can 
  register.
@@ -16,12 +16,13 @@ Contract Details
 *Real-time Voting Status: Check if voting is not started, in progress, or ended.
  Contract Details
 
-##Contract Details
+## Contract Details
+
  Contract Name: Vote
  Compiler Version: Solidity ^0.8.26
  License: MIT
 
-##Functions
+## Functions
 
 *registerVoter: Registers a new voter with details.
 *egisterCandidate: Registers a candidate for the election.
@@ -31,7 +32,7 @@ Contract Details
 *announceVotingResult: Determines the winner based on votes.
 *emergencyStopVoting: Stops voting in case of emergency.
 
-##Usage
+## Usage
 1.Deploy the Contract: Only the deployer becomes the Election Commission.
 2.Register Candidates and Voters: Call registerCandidate and registerVoter with required parameters.
 3.Set Voting Period: Election Commission sets the voting period with setVotingPeriod.
