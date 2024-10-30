@@ -24,7 +24,7 @@ Contract Details
 
 ## Functions
 
-*registerVoter: Registers a new voter with details.
+** registerVoter **: Registers a new voter with details.
 *egisterCandidate: Registers a candidate for the election.
 *setVotingPeriod: Sets the voting start and end times.
 *castVote: Allows a voter to vote for a candidate by ID.
